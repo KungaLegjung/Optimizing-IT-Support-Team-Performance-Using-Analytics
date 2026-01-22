@@ -78,5 +78,3 @@ An interactive **Power BI dashboard** was developed to visualize:
  
 
 ---
-
-## 📁 Project Structure
