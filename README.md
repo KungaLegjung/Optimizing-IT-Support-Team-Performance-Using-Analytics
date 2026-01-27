@@ -5,15 +5,6 @@ This project analyzes IT support ticket data to evaluate team performance, ident
 
 ---
 
-## Objectives
-- Analyze IT support ticket trends and resolution performance
-- Identify recurring issues and performance bottlenecks
-- Compare performance across priorities, categories, and regions
-- Visualize key metrics using an interactive dashboard
-- Provide recommendations for operational improvement
-
----
-
 ## 1) Problem Statement
 IT support teams often handle a high volume of tickets with varying priorities and complexity. Due to limited visibility into performance data, teams face challenges such as delayed resolutions, repeated issues, and uneven workload distribution.  
 This project aims to use analytics to uncover these issues and improve overall support efficiency.
