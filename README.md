@@ -21,7 +21,7 @@ This project aims to use analytics to uncover these issues and improve overall s
 ---
 
 ## 2) Dataset Description
-- **Source:** Internal IT Support Ticket System  
+- **Source:** Internal IT Support Ticket System (Kaggle)
 - **Format:** CSV  
 - **Type:** Structured data  
 
