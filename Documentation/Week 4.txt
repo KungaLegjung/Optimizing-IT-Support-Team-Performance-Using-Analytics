@@ -1,65 +1,70 @@
-4th Week – Internship Learning Summary
-🔹 What We Learned This Week
+# Internship – Week 4 Documentation
 
-Live Data Import in Power BI
+## 📅 Week 4 Summary
 
-Learned how to connect Power BI with live data sources.
+In this week, we learned and explored the following concepts related to data analytics and Power BI.
 
-Understood the difference between Import mode and DirectQuery.
+---
 
-Why Some Data Imports Directly and Some Doesn’t
+## 🔹 Topics Covered
 
-Some data sources support direct connection (like databases, cloud tools).
+### 1. Live Data Import in Power BI
+- Learned how to connect Power BI with live data sources.
+- Understood Import mode and DirectQuery mode.
 
-Some files (CSV, Excel, JSON) need transformation before loading.
+### 2. Direct vs Non-Direct Data Import
+- Some data sources can be imported directly (databases, cloud tools).
+- Some data (Excel, CSV, JSON) needs transformation before loading.
+- API limits, authentication, and data structure affect direct import.
 
-API limits, authentication, and data structure affect direct import.
+### 3. JSON Data Storage in Power BI
+- Learned how JSON data is stored in nested format.
+- Used Power Query to expand and convert JSON into tabular format.
 
-JSON Data Storage in Power BI
+### 4. Zendesk Exploration
+- Explored Zendesk as a customer support and ticketing platform.
+- Understood ticket, user, and interaction data for analysis.
 
-Learned how JSON data is stored as nested structures.
+### 5. GitHub Basics
+- Learned how to create and manage a GitHub repository.
+- Understood which files and folders are required for proper project documentation.
 
-Used Power Query to expand and flatten JSON data for analysis.
+---
 
-Zendesk Exploration
+## 📊 Project Details
 
-Explored Zendesk as a customer support and ticketing platform.
+### 🔹 Problem Statement
+To analyze live and structured data using Power BI and generate meaningful insights.
 
-Understood how ticket, user, and interaction data can be analyzed in Power BI.
+### 🔹 Dataset Description
+The dataset includes structured and semi-structured data (JSON) collected from different sources.
 
-GitHub Basics
+### 🔹 KPIs
+- Ticket count
+- Response time
+- Resolution time
+- Customer activity trends
 
-Learned how to create a GitHub repository.
+### 🔹 Dashboard
+Power BI dashboard created to visualize key metrics and insights.
 
-Understood how to store project files properly for documentation and sharing.
+### 🔹 Key Insights
+- Identified trends in customer support tickets.
+- Found peak activity periods.
+- Observed performance metrics clearly.
 
-📘 GitHub Repository Structure
-🔹 README.md Content
+### 🔹 Recommendations
+- Improve response time during peak hours.
+- Use live data for real-time monitoring.
+- Clean JSON data properly before analysis.
 
-The README file includes:
+### 🔹 Tools Used
+- Power BI
+- Power Query
+- Zendesk
+- GitHub
 
-Problem Statement
+---
 
-Dataset Description
+## 📁 Repository Structure
 
-KPIs
-
-Dashboard Overview
-
-Key Insights
-
-Recommendations
-
-Tools Used
-
-📁 Folder Structure in Repository
-
-Data/ → Raw and cleaned datasets
-
-Data_Cleaning/ → Power Query steps or scripts
-
-Documentation/ → Project explanation and reports
-
-PowerBI/ → .pbix dashboard files
-
-Screenshots/ → Dashboard images
