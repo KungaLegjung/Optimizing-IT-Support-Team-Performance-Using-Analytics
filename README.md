@@ -25,17 +25,6 @@ This project aims to use analytics to uncover these issues and improve overall s
 - **Format:** CSV  
 - **Type:** Structured data  
 
-### Key Fields
-- Ticket ID  
-- Ticket Type (Incident, Request, Problem)  
-- Priority  
-- Category (Bug, Security, Integration, etc.)  
-- Country / Region  
-- Created Date  
-- Resolved Date  
-
-Derived metrics such as **resolution time** were calculated for performance analysis.
-
 ---
 
 ## 3) Key Performance Indicators (KPIs)
