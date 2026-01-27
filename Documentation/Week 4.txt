@@ -1,1 +1,65 @@
+4th Week – Internship Learning Summary
+🔹 What We Learned This Week
 
+Live Data Import in Power BI
+
+Learned how to connect Power BI with live data sources.
+
+Understood the difference between Import mode and DirectQuery.
+
+Why Some Data Imports Directly and Some Doesn’t
+
+Some data sources support direct connection (like databases, cloud tools).
+
+Some files (CSV, Excel, JSON) need transformation before loading.
+
+API limits, authentication, and data structure affect direct import.
+
+JSON Data Storage in Power BI
+
+Learned how JSON data is stored as nested structures.
+
+Used Power Query to expand and flatten JSON data for analysis.
+
+Zendesk Exploration
+
+Explored Zendesk as a customer support and ticketing platform.
+
+Understood how ticket, user, and interaction data can be analyzed in Power BI.
+
+GitHub Basics
+
+Learned how to create a GitHub repository.
+
+Understood how to store project files properly for documentation and sharing.
+
+📘 GitHub Repository Structure
+🔹 README.md Content
+
+The README file includes:
+
+Problem Statement
+
+Dataset Description
+
+KPIs
+
+Dashboard Overview
+
+Key Insights
+
+Recommendations
+
+Tools Used
+
+📁 Folder Structure in Repository
+
+Data/ → Raw and cleaned datasets
+
+Data_Cleaning/ → Power Query steps or scripts
+
+Documentation/ → Project explanation and reports
+
+PowerBI/ → .pbix dashboard files
+
+Screenshots/ → Dashboard images
