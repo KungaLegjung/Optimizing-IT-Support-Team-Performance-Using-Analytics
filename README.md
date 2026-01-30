@@ -1,60 +1,115 @@
 # Optimizing IT Support Team Performance Using Analytics
 
 ## Project Overview
-This project analyzes IT support ticket data to evaluate team performance, identify operational inefficiencies, and provide actionable insights using data analytics and visualization. The solution combines Python-based analysis with an interactive Power BI dashboard to support data-driven decision-making in IT support operations.
+This project analyzes IT support ticket data to evaluate team performance, identify operational inefficiencies, and generate actionable insights.  
+The analysis is performed using **Python (Pandas) in Jupyter Notebook within Visual Studio Code**, and the insights are visualized through an **interactive Power BI dashboard** to support data-driven decision-making in IT support operations.
 
 ---
 
-## 1) Problem Statement
-IT support teams often handle a high volume of tickets with varying priorities and complexity. Due to limited visibility into performance data, teams face challenges such as delayed resolutions, repeated issues, and uneven workload distribution.  
-This project aims to use analytics to uncover these issues and improve overall support efficiency.
+## Problem Statement
+IT support teams handle a high volume of tickets with varying priorities, issue types, and customer expectations.  
+Due to limited analytical visibility, teams often face:
+- Delayed ticket resolution
+- Repeated or recurring issues
+- Uneven workload distribution
+- Declining customer satisfaction  
+
+This project aims to use analytics to uncover these challenges and recommend improvements for optimizing IT support performance.
 
 ---
 
-## 2) Dataset Description
-- **Source:** Internal IT Support Ticket System (Kaggle)
-- **Format:** CSV  
-- **Type:** Structured data  
+## Dataset Description
+- **Source:** Synthetic IT Support Ticket Dataset (Kaggle)
+- **Format:** CSV
+- **Type:** Structured data
+- **Records:** ~100,000 tickets
+
+### Key Columns:
+- `created_at` – Ticket creation timestamp  
+- `customer_segment` – Type of customer  
+- `channel` – Support channel used  
+- `product_area` – Affected product/module  
+- `issue_type` – Category of issue  
+- `priority` – Ticket urgency  
+- `status` – Ticket status  
+- `resolution_time_hours` – Time taken to resolve ticket  
+- `csat_score` – Customer satisfaction score  
+- `region` – Geographic region  
 
 ---
 
-## 3) Key Performance Indicators (KPIs)
+## Data Cleaning & Preparation
+Data cleaning was performed using **Pandas** in Jupyter Notebook (VS Code), including:
+- Removal of unnecessary text-heavy columns
+- Handling missing values using appropriate statistical methods
+- Datetime parsing and feature extraction (year, month)
+- Standardization of categorical values
+- Outlier treatment for resolution time
+- Feature engineering for Power BI–ready KPIs
+
+The final dataset was optimized for dashboard performance and usability.
 
 ---
 
-## 4) Dashboard
+## Key Performance Indicators (KPIs)
+The following KPIs were derived and analyzed:
+- **Total Tickets**
+- **Average Resolution Time (Hours)**
+- **Customer Satisfaction Score (CSAT & CSAT %)**
+- **High-Priority Ticket Volume**
+- **SLA Breach Rate**
+- **Ticket Distribution by Category and Region**
+
+---
+
+## Power BI Dashboard
 An interactive **Power BI dashboard** was developed to visualize:
-- Ticket distribution by category and priority
-- Resolution time trends
-- Country-wise ticket analysis
-- Performance comparison across regions
-- Recurring issues using clustering and similarity analysis
+- Ticket distribution by priority, issue type, and channel
+- Resolution time trends over time
+- Region-wise and country-wise ticket analysis
+- CSAT performance across categories
+- Comparison of performance across regions
+- Identification of recurring issues
+
+The dashboard supports dynamic filtering using slicers for:
+- Date
+- Region
+- Priority
+- Customer segment
 
 ---
 
-## 5) Key Insights
-- High-priority tickets require significantly longer resolution times.
-- Certain issue categories occur repeatedly, indicating unresolved root causes.
+## Key Insights
+- High-priority tickets tend to have longer resolution times.
+- Certain issue categories recur frequently, indicating unresolved root causes.
+- Customer satisfaction decreases as resolution time increases.
 - Performance varies across regions, highlighting resource imbalance.
-- Clustering reveals common issue patterns and frequent problem areas.
-- Workload distribution across teams is uneven.
+- Workload distribution across support categories is uneven.
 
 ---
 
-## 6) Recommendations 
-- Allocate additional resources to high-priority and high-volume categories.
+## Recommendations
+- Allocate additional resources to high-priority and high-volume issue categories.
 - Address root causes of frequently recurring issues.
-- Improve workload balancing across teams and regions.
+- Improve workload balancing across regions and channels.
+- Track CSAT alongside operational KPIs to improve service quality.
+- Use analytics-driven insights to proactively manage SLA compliance.
 
 ---
 
-## 7) Tools & Technologies
-- **Python** – Data cleaning, analysis, and feature engineering  
-- **Power BI** – Dashboard creation and visualization  
-- **Jupyter Notebook** – Analysis and documentation  
+## Tools & Technologies
 
-### Libraries
-- pandas  
- 
+### Development Environment
+- **Visual Studio Code**
+- **Jupyter Notebook**
+
+### Technologies
+- **Python** – Data cleaning, preprocessing, analysis
+- **Power BI** – Dashboard creation and visualization
+
+### Python Libraries
+- `pandas`
 
 ---
+
+## 📁 Project Structure
