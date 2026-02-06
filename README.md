@@ -111,5 +111,3 @@ The dashboard supports dynamic filtering using slicers for:
 - `pandas`
 
 ---
-
-## 📁 Project Structure
