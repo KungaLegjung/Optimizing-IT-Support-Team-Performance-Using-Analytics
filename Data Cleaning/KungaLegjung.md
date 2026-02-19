@@ -12,7 +12,7 @@ Welcome to my Power BI portfolio repository. This repository showcases my intern
 ---
 
 ## 🔗 GitHub Profile
-https://github.com/username
+https://github.com/KungaLegjung
 
 ---
 
